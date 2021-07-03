@@ -1,0 +1,42 @@
+body{
+  background-color: #000;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+  text-align: center;
+  color: #fff;
+}
+.posts-wrapper{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.post{
+  background-color: #fff;
+  border-bottom: 5px solid #f1f1f1;
+  overflow: hidden;
+  max-width: 30%;
+  margin-bottom: 15px;
+}
+.post-content{
+  padding: 15px;
+}
+.post img{
+  width: 100%;
+}
+.post button{
+  display: inline-block;
+  text-align: center;
+  border: none;
+  outline: none;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+.post button + button{
+  margin-left: 10px;
+}
+.post button:hover{
+  background-color: goldenrod;
+}
